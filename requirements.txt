@@ -1,0 +1,7 @@
+elasticsearch==8.14.0
+openai==0.27.8
+pandas==1.4.3
+requests
+scikit-learn==1.1.1
+sentence-transformers
+tqdm

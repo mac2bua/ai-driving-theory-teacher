@@ -31,16 +31,16 @@ To avoid copyright issues with proprietary driving theory questions, we generate
 
 2. **Set Up OpenAI API Key**
 
-- Obtain an API key from OpenAI.
-- Set the API key as an environment variable:
-    - On macOS/Linux:
-    ```bash
-    export OPENAI_API_KEY='your-api-key-here'
-    ```
-    - On Windows:
-    ```cmd
-    set OPENAI_API_KEY=your-api-key-here
-    ```
+    - Obtain an API key from OpenAI.
+    - Set the API key as an environment variable:
+        - On macOS/Linux:
+            ```bash
+            export OPENAI_API_KEY='your-api-key-here'
+            ```
+        - On Windows:
+            ```cmd
+            set OPENAI_API_KEY=your-api-key-here
+            ```
 
 3. **Run the Data Generation Script**
 
@@ -48,4 +48,42 @@ To avoid copyright issues with proprietary driving theory questions, we generate
     python generate_data.py
     ```
 
-This will generate `data/generated_questions.json`.
+    This will generate `data/generated_questions.json`.
+
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/ai-driving-instructor.git
+   cd ai-driving-instructor
+   ```
+
+2. **Install Dependencies**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+
+## Running the Application
+
+1. **Generate the Data**
+
+    If you haven't already, generate the data as described in the [Data Generation](#data-generation) section.
+
+2. Start the Streamlit App
+
+    ```bash
+    streamlit run app.py
+    ```
+
+3. Access the App
+
+    Open your web browser and navigate to http://localhost:8501.
+
+
+## Acknowledgments
+
+- [DataTalks.Club](https://datatalks.club) for organizing the LLM Zoomcamp 2024. It was super fun and insightful!
