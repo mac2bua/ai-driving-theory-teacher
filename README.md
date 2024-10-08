@@ -1,5 +1,7 @@
 # AI Driving Instructor: Your Companion for the German Driving Theory Exam
 
+![German Driving Theory](./images/streamlit_app_example.png)
+
 ## Problem Statement
 
 Preparing for the German driving theory exam can be a challenging endeavor. Aspiring drivers must familiarize themselves with an extensive array of traffic rules, road signs, and safety regulations specific to Germany. Traditional study methods like textbooks and passive learning often fail to provide the interactive and personalized experience needed to effectively grasp these concepts.

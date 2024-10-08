@@ -7,6 +7,10 @@ import numpy as np
 import openai
 import os
 
+# Display the header image
+st.image('./images/header_image.webp', use_column_width=True)  # Update the path to your image
+
+
 # Load questions
 @st.cache_data
 def load_questions():
