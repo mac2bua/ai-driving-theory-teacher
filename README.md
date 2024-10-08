@@ -136,14 +136,14 @@ The application uses a RAG approach to provide accurate and contextually relevan
 4. **Answer Generation**: The retrieved context is used to generate an answer via the OpenAI GPT-3.5 language model.
 
 ### Evaluation of Retrieval Methods
-I evaluated the retrieval performance using metrics like Hit Rate and Mean Reciprocal Rank (MRR) on a ground truth dataset.
+I evaluated the retrieval performance using metrics like Hit Rate and Mean Reciprocal Rank (MRR) on a ground truth dataset. The evaluation can be found in the notebook `RAG.ipynb`.
 
 Results:
 * Hit Rate: 1.0
 * MRR: 0.93
 
 ### Evaluation of RAG Approaches
-I used the LLM-as-a-judge method to evaluate the quality of the generated answers compared to the ground truth.
+I used the LLM-as-a-judge method to evaluate the quality of the generated answers compared to the ground truth. The evaluation can be found in the notebook `RAG.ipynb`.
 
 Example Evaluation:
 * Score: `7`,
