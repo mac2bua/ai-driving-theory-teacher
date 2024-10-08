@@ -1,0 +1,152 @@
+[
+    {
+        "query": "What is the maximum allowable blood alcohol concentration (BAC) level for truck drivers in Germany?",
+        "relevant_doc_id": 0,
+        "ground_truth_answer": "The maximum allowed blood alcohol concentration for truck drivers in Germany is 0.02%."
+    },
+    {
+        "query": "What does the term 'tachograph' refer to in relation to truck drivers?",
+        "relevant_doc_id": 1,
+        "ground_truth_answer": "A tachograph is a device that records driving time, speed, and rest periods."
+    },
+    {
+        "query": "What is the maximum allowed blood alcohol concentration for truck drivers in Germany?",
+        "relevant_doc_id": 2,
+        "ground_truth_answer": "The maximum allowed blood alcohol concentration for truck drivers in Germany is 0.02%."
+    },
+    {
+        "query": "What is the maximum speed limit for trucks on German autobahns?",
+        "relevant_doc_id": 3,
+        "ground_truth_answer": "There is no speed limit for trucks on German autobahns."
+    },
+    {
+        "query": "What is the maximum allowed blood alcohol level (BAC) for truck drivers in Germany?",
+        "relevant_doc_id": 4,
+        "ground_truth_answer": "The maximum allowed blood alcohol concentration for truck drivers in Germany is 0.03%."
+    },
+    {
+        "query": "What does a blue circular traffic sign with a white arrow pointing upwards inside represent?",
+        "relevant_doc_id": 5,
+        "ground_truth_answer": "It indicates a mandatory direction of travel."
+    },
+    {
+        "query": "What does a blue circular sign with a white arrow pointing upwards indicate?",
+        "relevant_doc_id": 6,
+        "ground_truth_answer": "It indicates a mandatory direction to follow."
+    },
+    {
+        "query": "What does a round sign with a red border and a white background mean in Germany?",
+        "relevant_doc_id": 7,
+        "ground_truth_answer": "It means 'No entry'."
+    },
+    {
+        "query": "What does a blue circular traffic sign with a white arrow pointing upwards represent in Germany?",
+        "relevant_doc_id": 8,
+        "ground_truth_answer": "It indicates a mandatory direction of travel."
+    },
+    {
+        "query": "What does a blue circular traffic sign with a white arrow pointing upwards indicate?",
+        "relevant_doc_id": 9,
+        "ground_truth_answer": "It mandates that vehicles must proceed straight ahead."
+    },
+    {
+        "query": "What should you do when approaching a pedestrian crossing?",
+        "relevant_doc_id": 10,
+        "ground_truth_answer": "Slow down and be prepared to stop."
+    },
+    {
+        "query": "What does a solid white line at the edge of the road indicate?",
+        "relevant_doc_id": 11,
+        "ground_truth_answer": "No overtaking allowed."
+    },
+    {
+        "query": "When approaching a roundabout, you should:",
+        "relevant_doc_id": 12,
+        "ground_truth_answer": "Give way to vehicles on your right."
+    },
+    {
+        "query": "When approaching a roundabout, who has the right of way?",
+        "relevant_doc_id": 13,
+        "ground_truth_answer": "Vehicles already in the roundabout have the right of way."
+    },
+    {
+        "query": "What does a solid white line at the edge of the road indicate?",
+        "relevant_doc_id": 14,
+        "ground_truth_answer": "No overtaking allowed."
+    },
+    {
+        "query": "What is the recommended frequency for checking and replacing engine oil in a vehicle?",
+        "relevant_doc_id": 15,
+        "ground_truth_answer": "Every 5,000 kilometers."
+    },
+    {
+        "query": "What is the recommended tire pressure for most passenger vehicles?",
+        "relevant_doc_id": 16,
+        "ground_truth_answer": "32 psi."
+    },
+    {
+        "query": "What is the recommended frequency for checking the tire pressure of your vehicle?",
+        "relevant_doc_id": 17,
+        "ground_truth_answer": "Every 2 months."
+    },
+    {
+        "query": "Which of the following is a recommended practice for maintaining your vehicle's tires?",
+        "relevant_doc_id": 18,
+        "ground_truth_answer": "Regularly checking and adjusting tire pressure."
+    },
+    {
+        "query": "What is the recommended frequency for checking the engine oil level in your vehicle?",
+        "relevant_doc_id": 19,
+        "ground_truth_answer": "Every month."
+    },
+    {
+        "query": "What is an eco-friendly driving practice to reduce fuel consumption and emissions?",
+        "relevant_doc_id": 20,
+        "ground_truth_answer": "Maintaining a constant speed and avoiding unnecessary idling."
+    },
+    {
+        "query": "What is an eco-friendly driving practice to reduce fuel consumption and emissions?",
+        "relevant_doc_id": 21,
+        "ground_truth_answer": "Maintaining a steady speed and avoiding sudden accelerations."
+    },
+    {
+        "query": "Which actions can contribute to reducing fuel consumption and emissions while driving?",
+        "relevant_doc_id": 22,
+        "ground_truth_answer": "Maintaining a steady speed and avoiding sudden acceleration."
+    },
+    {
+        "query": "When driving, which practices can help reduce fuel consumption and emissions?",
+        "relevant_doc_id": 23,
+        "ground_truth_answer": "Keeping tires properly inflated and driving at a steady speed."
+    },
+    {
+        "query": "When driving, which actions can help reduce fuel consumption and carbon emissions?",
+        "relevant_doc_id": 24,
+        "ground_truth_answer": "Driving at a constant speed and avoiding sudden accelerations."
+    },
+    {
+        "query": "What is the correct procedure if you encounter a person who is unconscious and not breathing?",
+        "relevant_doc_id": 25,
+        "ground_truth_answer": "Perform chest compressions and call emergency services immediately."
+    },
+    {
+        "query": "What is the first thing you should do when arriving at the scene of a car accident?",
+        "relevant_doc_id": 26,
+        "ground_truth_answer": "Call emergency services immediately."
+    },
+    {
+        "query": "What is the first thing you should do when approaching a car accident scene?",
+        "relevant_doc_id": 27,
+        "ground_truth_answer": "Check for any danger to yourself and others."
+    },
+    {
+        "query": "What is the first step to take when encountering a car accident?",
+        "relevant_doc_id": 28,
+        "ground_truth_answer": "Call emergency services and check for injuries."
+    },
+    {
+        "query": "What is the first thing you should do when arriving at the scene of a car accident?",
+        "relevant_doc_id": 29,
+        "ground_truth_answer": "Check for injuries and call emergency services."
+    }
+]
