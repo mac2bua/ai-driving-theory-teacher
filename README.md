@@ -28,7 +28,7 @@ To avoid copyright issues with proprietary driving theory questions, we generate
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python 3.10.9
 - OpenAI Python library
 - OpenAI API key
 
@@ -61,6 +61,13 @@ To avoid copyright issues with proprietary driving theory questions, we generate
 
     This will generate `data/generated_questions.json`.
 
+4. **Run the Ground-Truth Generation Script (Optional)**
+
+    ```bash
+    python generate_ground_truth.py
+    ```
+
+    This will generate `data/ground_truth.json`.
 
 ## Installation
 
