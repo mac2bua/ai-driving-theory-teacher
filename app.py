@@ -4,8 +4,9 @@ import random
 import faiss
 from sentence_transformers import SentenceTransformer
 import numpy as np
-import openai
 import os
+import openai
+
 
 # Display the header image
 st.image('./images/header_image.webp', use_column_width=True)  # Update the path to your image
