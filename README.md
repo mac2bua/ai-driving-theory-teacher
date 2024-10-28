@@ -143,11 +143,21 @@ The application uses a RAG approach to provide accurate and contextually relevan
 4. **Answer Generation**: The retrieved context is used to generate an answer via the OpenAI GPT-3.5 language model.
 
 ### Evaluation of Retrieval Methods
-I evaluated the retrieval performance using metrics like Hit Rate and Mean Reciprocal Rank (MRR) on a ground truth dataset. The evaluation can be found in the notebook `RAG.ipynb`.
+I evaluated the retrieval performance using metrics like Hit Rate and Mean Reciprocal Rank (MRR) on a ground truth dataset. The evaluation can be found in the notebook `Retrieval-Evaluation.ipynb`.
 
-Results:
-* Hit Rate: 1.0
-* MRR: 0.93
+We evaluated three retrieval approaches:
+
+- **MinSearch (simple keyword search)**
+- **Euclidean Distance**
+- **Cosine Similarity**
+
+| Method             | Hit Rate | MRR    |
+|--------------------|----------|--------|
+| MinSearch          | 0.96     | 0.90   |
+| Euclidean Distance | 1.00     | 0.86   |
+| Cosine Similarity  | 1.00     | 0.86   |
+
+**Conclusion**: Cosine Similarity and Euclidean Distance performed better in both Hit Rate and MinSearch in MRR, we chose Euclidean Distance for our application.
 
 ### Evaluation of RAG Approaches
 I used the LLM-as-a-judge method to evaluate the quality of the generated answers compared to the ground truth. The evaluation can be found in the notebook `RAG.ipynb`.
