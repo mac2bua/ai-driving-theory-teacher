@@ -176,7 +176,7 @@ Approaches evaluated:
 | Simple (GPT-4o mini)  | 8.3/10 (*) |
 | CoT (GPT-4o mini)     | 8.1/10     |
 
-**Conclusion**: The basic prompt with GPT4o-mini achieved the best results with an average score of 8.2/10, followed by the CoT prompt with GPT-4o mini.
+**Conclusion**: The simple prompt (zero-shot) with GPT4o-mini achieved the best results with an average score of 8.3/10, followed by the CoT prompt with GPT-4o mini.
 
 ## Configuration
 Ensure that you have the following environment variables set:
