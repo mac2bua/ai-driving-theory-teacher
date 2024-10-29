@@ -140,7 +140,7 @@ The application uses a RAG approach to provide accurate and contextually relevan
 1. **Data Embedding**: Questions are embedded using a pre-trained Sentence Transformer model.
 2. **Indexing**: A FAISS index is created for efficient similarity search.
 3. **Retrieval**: Relevant questions are retrieved based on the user's query.
-4. **Answer Generation**: The retrieved context is used to generate an answer via the OpenAI GPT-3.5 language model.
+4. **Answer Generation**: The retrieved context is used to generate an answer via the OpenAI GPT-4o mini language model.
 
 ### Evaluation of Retrieval Methods
 I evaluated the retrieval performance using metrics like Hit Rate and Mean Reciprocal Rank (MRR) on a ground truth dataset. The evaluation can be found in the notebook `Retrieval-Evaluation.ipynb`.
