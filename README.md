@@ -22,6 +22,41 @@ By leveraging artificial intelligence and large language models (LLMs), the AI D
 * **User Feedback Dashboard**: An administrative dashboard (dashboard.py) displays collected feedback, providing insights into user interactions and areas for improvement.
 
 
+### Dockerization
+
+The application is containerized using Docker with Python 3.10 to ensure compatibility with the development environment.
+
+#### Prerequisites
+
+- Docker and Docker Compose installed.
+- OpenAI API key.
+
+#### Steps
+
+1. **Set your OpenAI API Key:**
+
+   - On macOS/Linux:
+
+     ```bash
+     export OPENAI_API_KEY='your-api-key-here'
+     ```
+
+   - On Windows:
+
+     ```cmd
+     set OPENAI_API_KEY=your-api-key-here
+     ```
+
+2. **Build and Run the Containers:**
+
+   ```bash
+   docker-compose up --build
+   ```
+3. **Access the App and Dashboard**:
+
+* App: http://localhost:8501
+* Dashboard: http://localhost:8502
+
 ## Data Generation
 
 ### Why Synthetic Data?
@@ -81,6 +116,8 @@ To avoid copyright issues with proprietary driving theory questions, we generate
    ```
 
 2. **Install Dependencies**
+
+    Note: before installing the requirements you should create a Python environment using conda or pipenv.
 
     ```bash
     pip install -r requirements.txt

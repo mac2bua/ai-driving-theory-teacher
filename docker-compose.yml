@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: ai_driving_instructor_app
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - .:/app
+    command: streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+
+  dashboard:
+    build: .
+    container_name: ai_driving_instructor_dashboard
+    ports:
+      - "8502:8501"
+    volumes:
+      - .:/app
+    command: streamlit run dashboard.py --server.port=8501 --server.address=0.0.0.0
