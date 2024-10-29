@@ -98,14 +98,6 @@ To avoid copyright issues with proprietary driving theory questions, we generate
 
     This will generate `data/generated_questions.json`.
 
-4. **Run the Ground-Truth Generation Script (Optional)**
-
-    ```bash
-    python generate_ground_truth.py
-    ```
-
-    This will generate `data/ground_truth.json`.
-
 ## Installation
 
 1. **Clone the Repository**
@@ -139,10 +131,15 @@ Before running the application, you need to prepare the data and create the nece
     - Create a FAISS index for efficient similarity search.
     - Save the index and the mapping of indices to questions.
 
-2. **Ground Truth Data (Optional)**
+2. **Run the Ground-Truth Generation Script (Optional)**
 
-    If you wish to evaluate the retrieval methods, you can use the provided `ground_truth.json` file.
+    If you wish to evaluate the retrieval methods, you can use the provided script to generate the ground truth:
 
+    ```bash
+    python generate_ground_truth.py
+    ```
+
+    This will generate `data/ground_truth.json`.
 
 ## Running the Application
 
@@ -157,15 +154,15 @@ Before running the application, you need to prepare the data and create the nece
     Open your web browser and navigate to http://localhost:8501.
 
 
-## Application Modes
+### Application Modes
 
-### Practice Mode
+#### Practice Mode
 - Select a theme from the sidebar.
 - Click "Get Random Question" to receive a question.
 - Choose your answers and submit.
 - Receive immediate feedback and explanations.
 
-### Ask a Question
+#### Ask a Question
 - Navigate to "Ask a Question" mode from the sidebar.
 - Enter your question about the German driving theory exam.
 - The AI will provide an answer using the RAG approach.
@@ -191,7 +188,7 @@ How to Provide Feedback:
     * Click the "Submit Feedback" button to send your feedback.
     * A confirmation message will appear, thanking you for your feedback.
 
-#### User Feedback Dashboard
+## User Feedback Dashboard
 
 An administrative dashboard is available to review the collected user feedback. This dashboard provides insights into user satisfaction and highlights areas where the AI's responses may need improvement.
 
