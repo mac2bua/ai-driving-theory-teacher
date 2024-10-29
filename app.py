@@ -147,6 +147,21 @@ elif mode == "Ask a Question":
                     if doc.get('comments'):
                         st.write(f"**Explanation:** {doc['comments']}")
                     st.write("---")
+        
+        feedback = st.radio("Was this answer helpful?", ("Yes", "No"))
+        if feedback == "No":
+            feedback_text = st.text_input("Please tell us how we can improve:")
+        if st.button("Submit Feedback"):
+            feedback_data = {
+                "query": user_query,
+                "answer": answer,
+                "feedback": feedback,
+                "comments": feedback_text if feedback == "No" else ""
+            }
+            # Save feedback to a JSON file
+            with open('data/user_feedback.json', 'a') as f:
+                f.write(json.dumps(feedback_data) + "\n")
+            st.success("Thank you for your feedback!")
 
 # Refresh the page without changing states
 st.sidebar.button("Refresh")

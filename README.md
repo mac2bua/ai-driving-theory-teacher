@@ -18,6 +18,8 @@ By leveraging artificial intelligence and large language models (LLMs), the AI D
 * **Ask a Question**: Users can input their own questions about the German driving theory exam, and the AI will provide answers using a Retrieval-Augmented Generation (RAG) approach.
 * **Immediate Feedback**: The app provides instant feedback on quiz answers, including correct answers and explanations.
 * **Interactive Interface**: A user-friendly Streamlit application for an engaging learning experience.
+* **User Feedback Mechanism**: In the "Ask a Question" mode, users can provide feedback on the AI-generated answers, helping improve the application's performance.
+* **User Feedback Dashboard**: An administrative dashboard (dashboard.py) displays collected feedback, providing insights into user interactions and areas for improvement.
 
 
 ## Data Generation
@@ -131,7 +133,54 @@ Before running the application, you need to prepare the data and create the nece
 - Enter your question about the German driving theory exam.
 - The AI will provide an answer using the RAG approach.
 - Optionally, view the retrieved context used to generate the answer.
+- Provide Feedback:
+    - After receiving the answer, you can indicate whether the answer was helpful by selecting "Yes" or "No".
+    - If you select "No", you can provide additional comments on how to improve the answer.
+    - Submit your feedback by clicking the "Submit Feedback" button.
+    - A confirmation message will appear to thank you for your feedback.
 
+#### User Feedback Mechanism
+
+In the "Ask a Question" mode, users have the opportunity to provide feedback on the AI-generated answers. This feature allows for continuous improvement of the application's responses.
+
+How to Provide Feedback:
+1. Was this answer helpful?
+    * After the AI generates an answer to your question, you'll see a prompt asking, "Was this answer helpful?" with options "Yes" or "No".
+    * Select "Yes" if you found the answer satisfactory.
+    * Select "No" if the answer was not helpful or accurate.
+2. Additional Comments (Optional):
+    * If you select "No", a text input field will appear where you can provide specific feedback or suggestions for improvement.
+3. Submit Feedback:
+    * Click the "Submit Feedback" button to send your feedback.
+    * A confirmation message will appear, thanking you for your feedback.
+
+#### User Feedback Dashboard
+
+An administrative dashboard is available to review the collected user feedback. This dashboard provides insights into user satisfaction and highlights areas where the AI's responses may need improvement.
+
+Running the Dashboard:
+1. Start the Dashboard App
+    ```bash
+    streamlit run dashboard.py
+    ```
+2. Access the Dashboard
+Open your web browser and navigate to http://localhost:8501. If the main application is running on this port, the dashboard will run on the next available port, e.g., http://localhost:8502.
+
+Dashboard Features:
+* Feedback Metrics:
+    * Total number of feedback entries.
+    * Count of positive and negative feedback.
+* Feedback Distribution Chart:
+    * A bar chart visualizing the proportion of positive and negative feedback.
+* Recent Feedback:
+    * Displays the most recent feedback entries.
+    * Shows the query, whether the feedback was positive or negative, and any additional comments provided.
+
+Note: The dashboard reads from `data/user_feedback.json`, where user feedback is stored. Ensure that this file exists and contains feedback entries.
+
+**Dashboard Preview:**
+
+![Dashboard Screenshot](./images/dashboard.png)
 
 ## Retrieval-Augmented Generation (RAG) Implementation
 
@@ -186,11 +235,16 @@ Ensure that you have the following environment variables set:
 Ensure your `requirements.txt` includes the following (and any additional) packages:
 
 ```txt
-streamlit
-numpy
-sentence-transformers
-faiss-cpu
-openai
+openai==0.27.8
+pandas==1.4.3
+requests
+scikit-learn==1.1.1
+sentence_transformers==2.7.0
+tqdm
+faiss-cpu==1.7.2
+numpy==1.21.0
+streamlit==1.23.1
+notebook
 ```
 
 ## Acknowledgments
