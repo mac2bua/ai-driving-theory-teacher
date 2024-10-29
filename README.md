@@ -22,7 +22,7 @@ By leveraging artificial intelligence and large language models (LLMs), the AI D
 * **User Feedback Dashboard**: An administrative dashboard (dashboard.py) displays collected feedback, providing insights into user interactions and areas for improvement.
 
 
-### Dockerization
+## Dockerization
 
 The application is containerized using Docker with Python 3.10 to ensure compatibility with the development environment.
 
@@ -279,7 +279,7 @@ scikit-learn==1.1.1
 sentence_transformers==2.7.0
 tqdm
 faiss-cpu==1.7.2
-numpy==1.21.0
+numpy==1.22.0
 streamlit==1.23.1
 notebook
 ```
