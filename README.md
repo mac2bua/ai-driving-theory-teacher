@@ -145,26 +145,38 @@ The application uses a RAG approach to provide accurate and contextually relevan
 ### Evaluation of Retrieval Methods
 I evaluated the retrieval performance using metrics like Hit Rate and Mean Reciprocal Rank (MRR) on a ground truth dataset. The evaluation can be found in the notebook `Retrieval-Evaluation.ipynb`.
 
-We evaluated three retrieval approaches:
+Approaches evaluated:
 
 - **MinSearch (simple keyword search)**
 - **Euclidean Distance**
 - **Cosine Similarity**
 
-| Method             | Hit Rate | MRR    |
-|--------------------|----------|--------|
-| MinSearch          | 0.96     | 0.90   |
-| Euclidean Distance | 1.00     | 0.86   |
-| Cosine Similarity  | 1.00     | 0.86   |
+| Method             | Hit Rate | MRR      |
+|--------------------|----------|----------|
+| MinSearch          | 0.96     | 0.90 (*) |
+| Euclidean Distance | 1.00 (*) | 0.86     |
+| Cosine Similarity  | 1.00 (*) | 0.86     |
 
 **Conclusion**: Cosine Similarity and Euclidean Distance performed better in both Hit Rate and MinSearch in MRR, we chose Euclidean Distance for our application.
 
 ### Evaluation of RAG Approaches
-I used the LLM-as-a-judge method to evaluate the quality of the generated answers compared to the ground truth. The evaluation can be found in the notebook `RAG.ipynb`.
+I used the LLM-as-a-judge method to evaluate the quality of the generated answers compared to the ground truth. The evaluation can be found in the notebook `RAG-Evaluation.ipynb`.
 
-Example Evaluation:
-* Score: `7`,
-* Explanation: `"The LLM answer provides relevant information and addresses the question, but there are some inaccuracies and missing details. It demonstrates a good understanding of the topic but could be improved with more specific and accurate information."`
+Approaches evaluated:
+
+- **Simple prompt (LLM=GPT3.5 Turbo)**
+- **Chain-of-Thought (LLM=GPT3.5 Turbo)**
+- **Simple prompt (LLM=GPT-4o mini)**
+- **Chain-of-Thought (LLM=GPT-4o mini)**
+
+| Method                | Evaluation |
+|-----------------------|------------|
+| Simple (GPT3.5 Turbo) | 8.0/10     |
+| CoT (GTP3.5 Turbo)    | 8.0/10     |
+| Simple (GPT-4o mini)  | 8.3/10 (*) |
+| CoT (GPT-4o mini)     | 8.1/10     |
+
+**Conclusion**: The basic prompt with GPT4o-mini achieved the best results with an average score of 8.2/10, followed by the CoT prompt with GPT-4o mini.
 
 ## Configuration
 Ensure that you have the following environment variables set:
