@@ -52,21 +52,22 @@ def search_question(query, index, questions, embedding_model, k=5):
 def generate_answer(query, retrieved_docs):
     context = "\n".join([f"Q: {doc['question']}\nA: {doc['correct_options']}" for doc in retrieved_docs])
     prompt = f"""
-You are an AI assistant helping users prepare for the German driving theory exam.
+    You are an AI assistant helping users prepare for the German driving theory exam.
 
-Context:
-{context}
+    Context:
+    {context}
 
-Question:
-{query}
+    Question:
+    {query}
 
-Answer the question using the context above, without including the letter at the beginning of each correct option. If the answer is not in the context, say "I'm sorry, I don't have enough information to answer that question."
-"""
+    Answer the question using the context above, don't include the letter at the beginning of each correct option. If the answer is not in the context, say "I'm sorry, I don't have enough information to answer that question."
+    """
+
     response = openai.ChatCompletion.create(
-        model='gpt-3.5-turbo',  # Use 'gpt-4' if available
+        model='gpt-4o-mini',
         messages=[{"role": "user", "content": prompt}],
         max_tokens=150,
-        temperature=0.7,
+        temperature=0,
     )
     return response.choices[0].message.content.strip()
 
