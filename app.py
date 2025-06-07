@@ -50,7 +50,10 @@ def search_question(query, index, questions, embedding_model, k=5):
     return retrieved_questions, indices[0]
 
 def generate_answer(query, retrieved_docs):
-    context = "\n".join([f"Q: {doc['question']}\nA: {doc['correct_options']}" for doc in retrieved_docs])
+    context = "\n".join([
+        f"Q: {doc['question']}\nA: {', '.join(doc['correct_options'])}"
+        for doc in retrieved_docs
+    ])
     prompt = f"""
     You are an AI assistant helping users prepare for the German driving theory exam.
 
