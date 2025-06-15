@@ -1,0 +1,182 @@
+[
+    {
+        "query": "What is the legal limit for blood alcohol concentration (BAC) for truck drivers in Germany?",
+        "relevant_doc_id": 0,
+        "ground_truth_question": "What is the maximum allowed blood alcohol concentration (BAC) for truck drivers in Germany?",
+        "ground_truth_answer": "The maximum allowed blood alcohol concentration (BAC) for truck drivers in Germany is 0.05%. This limit is strictly enforced to ensure the safety of all road users."
+    },
+    {
+        "query": "What is the recommended following distance when driving a truck behind another vehicle?",
+        "relevant_doc_id": 1,
+        "ground_truth_question": "When driving a truck, what is the recommended distance to maintain from the vehicle in front of you?",
+        "ground_truth_answer": "The recommended distance to maintain from the vehicle in front of you when driving a truck is 4 seconds. This allows for enough time to react to any sudden stops or changes in traffic flow. It is important to increase this following distance in adverse weather conditions or when carrying a heavy load."
+    },
+    {
+        "query": "What is the permitted maximum blood alcohol concentration for truck drivers in Germany?",
+        "relevant_doc_id": 2,
+        "ground_truth_question": "What is the maximum allowed blood alcohol content for truck drivers in Germany?",
+        "ground_truth_answer": "The maximum allowed blood alcohol content for truck drivers in Germany is 0.03%. This limit is strictly enforced to ensure the safety of everyone on the road."
+    },
+    {
+        "query": "How many hours can a truck driver legally work per day in Germany?",
+        "relevant_doc_id": 3,
+        "ground_truth_question": "What is the maximum legal working hours for a truck driver in Germany per day?",
+        "ground_truth_answer": "The maximum legal working hours for a truck driver in Germany per day is 10 hours. This limit can be extended to 11 hours twice a week."
+    },
+    {
+        "query": "What is the legal limit for blood alcohol concentration (BAC) for truck drivers in Germany?",
+        "relevant_doc_id": 4,
+        "ground_truth_question": "What is the maximum allowed blood alcohol concentration (BAC) for truck drivers in Germany?",
+        "ground_truth_answer": "The maximum allowed blood alcohol concentration (BAC) for truck drivers in Germany is 0.0%. Truck drivers are not allowed to have any alcohol in their system while driving."
+    },
+    {
+        "query": "What does a blue circle with a white arrow pointing up symbolize?",
+        "relevant_doc_id": 5,
+        "ground_truth_question": "What does a blue circle with a white arrow pointing upwards indicate?",
+        "ground_truth_answer": "A blue circle with a white arrow pointing upwards indicates the mandatory direction of travel straight ahead. This sign is used to inform drivers that they must continue driving in the direction indicated by the arrow."
+    },
+    {
+        "query": "What is the meaning of a blue sign with a white arrow pointing upwards?",
+        "relevant_doc_id": 6,
+        "ground_truth_question": "What does a blue sign with a white arrow pointing upwards mean?",
+        "ground_truth_answer": "A blue sign with a white arrow pointing upwards indicates a mandatory direction. This means that drivers must follow the direction indicated by the arrow on the sign."
+    },
+    {
+        "query": "What does a red triangle with a white border symbolize on a German traffic sign?",
+        "relevant_doc_id": 7,
+        "ground_truth_question": "What does a red triangle with a white border mean on a German traffic sign?",
+        "ground_truth_answer": "Therefore, a red triangle with a white border on a German traffic sign means \"Give way.\" This sign is used to indicate that drivers must yield to oncoming traffic or vehicles already on the main road."
+    },
+    {
+        "query": "What does a traffic sign with a blue circle and a white arrow pointing upwards symbolize?",
+        "relevant_doc_id": 8,
+        "ground_truth_question": "What does a blue circle with a white arrow pointing upwards on a traffic sign indicate?",
+        "ground_truth_answer": "Therefore, the correct answer is:\n\nB. Mandatory direction of travel"
+    },
+    {
+        "query": "What does a blue circular traffic sign with a white upward-pointing arrow mean?",
+        "relevant_doc_id": 9,
+        "ground_truth_question": "What does a blue circular traffic sign with a white arrow pointing upwards indicate?",
+        "ground_truth_answer": "A blue circular traffic sign with a white arrow pointing upwards indicates the mandatory direction of travel for vehicles in that lane. Drivers must follow the direction indicated by the arrow."
+    },
+    {
+        "query": "What should you do when you approach a pedestrian crossing?",
+        "relevant_doc_id": 10,
+        "ground_truth_question": "When approaching a pedestrian crossing, you must:",
+        "ground_truth_answer": "When approaching a pedestrian crossing, you must slow down and be prepared to stop. This is important to ensure the safety of pedestrians who may be crossing the road. It is also a legal requirement to yield to pedestrians at a crossing."
+    },
+    {
+        "query": "What does it mean when there is a solid white line next to the side of the road?",
+        "relevant_doc_id": 11,
+        "ground_truth_question": "What does a solid white line next to the edge of the road indicate?",
+        "ground_truth_answer": "A solid white line next to the edge of the road indicates no overtaking or crossing. Drivers should stay within their lane and not cross the line unless necessary."
+    },
+    {
+        "query": "What should you do when approaching a roundabout?",
+        "relevant_doc_id": 12,
+        "ground_truth_question": "When approaching a roundabout, you should:",
+        "ground_truth_answer": "When approaching a roundabout, you should give way to traffic on your right. This is to ensure a smooth flow of traffic and prevent accidents. Remember to always yield to vehicles already in the roundabout before entering."
+    },
+    {
+        "query": "What is the minimum speed limit for vehicles when driving on the autobahn in Germany?",
+        "relevant_doc_id": 13,
+        "ground_truth_question": "When driving on the autobahn in Germany, what is the minimum speed limit for vehicles?",
+        "ground_truth_answer": "C. There is no minimum speed limit. \n\nComments: The autobahn in Germany is known for sections with no speed limits, but it is important to remember that drivers are expected to drive at a speed that is safe and appropriate for the conditions."
+    },
+    {
+        "query": "What is the highest speed limit allowed on autobahns in Germany?",
+        "relevant_doc_id": 14,
+        "ground_truth_question": "What is the maximum speed limit on autobahns in Germany?",
+        "ground_truth_answer": "The maximum speed limit on autobahns in Germany is C. No general speed limit. While there is no specific speed limit, drivers are expected to drive at a safe speed based on road conditions, traffic, and weather."
+    },
+    {
+        "query": "What tire pressure is typically recommended for the majority of vehicles?",
+        "relevant_doc_id": 15,
+        "ground_truth_question": "What is the recommended tire pressure for most vehicles?",
+        "ground_truth_answer": "The recommended tire pressure for most vehicles is 35 psi. It is important to check and maintain proper tire pressure regularly to ensure safety, improve fuel efficiency, and extend the life of the tires."
+    },
+    {
+        "query": "What steps should be taken if you observe that your tires have low air pressure?",
+        "relevant_doc_id": 16,
+        "ground_truth_question": "What should you do if you notice your tires are underinflated?",
+        "ground_truth_answer": "If you notice that your tires are underinflated, you should immediately stop and inflate the tires to the recommended pressure. This is important for your safety and the proper functioning of your vehicle. Underinflated tires can lead to decreased fuel efficiency, poor handling, and increased risk of a blowout. It is recommended to regularly check your tire pressure to ensure they are properly inflated."
+    },
+    {
+        "query": "What tire pressure is recommended for a passenger car?",
+        "relevant_doc_id": 17,
+        "ground_truth_question": "What is the recommended tire pressure for a passenger car?",
+        "ground_truth_answer": "The recommended tire pressure for a passenger car is 32 psi. However, it is crucial to consult the manufacturer's guidelines for the exact vehicle to ensure the correct tire pressure is maintained for optimal performance and safety."
+    },
+    {
+        "query": "What does the oil can symbol on the dashboard warning light indicate?",
+        "relevant_doc_id": 18,
+        "ground_truth_question": "What does the warning light on the dashboard indicate if it shows an oil can symbol?",
+        "ground_truth_answer": "Answer: The warning light with an oil can symbol on the dashboard indicates a low oil level in the engine. It is important to check the oil level and add more oil if needed to prevent potential damage to the engine."
+    },
+    {
+        "query": "What is the typical recommended tire pressure for cars?",
+        "relevant_doc_id": 19,
+        "ground_truth_question": "What is the recommended tire pressure for most cars?",
+        "ground_truth_answer": "The recommended tire pressure for most cars is 35 psi. This is the standard pressure that provides optimal performance, fuel efficiency, and safety for most vehicles. It is important to check and maintain proper tire pressure regularly to ensure vehicle safety and longevity."
+    },
+    {
+        "query": "What practices can be followed to drive in an eco-friendly manner?",
+        "relevant_doc_id": 20,
+        "ground_truth_question": "Which of the following practices contribute to eco-friendly driving?",
+        "ground_truth_answer": "Maintaining a steady speed and avoiding sudden stops contribute to eco-friendly driving. This helps to improve fuel efficiency, reduce emissions, and minimize wear and tear on the vehicle. Additional information from the 'comments' section may provide further tips on eco-friendly driving practices."
+    },
+    {
+        "query": "What are some environmentally friendly driving habits that can help decrease fuel usage and emissions?",
+        "relevant_doc_id": 21,
+        "ground_truth_question": "What is an eco-friendly driving practice that can reduce fuel consumption and emissions?",
+        "ground_truth_answer": "To reduce fuel consumption and emissions, a recommended eco-friendly driving practice is to keep a steady speed and avoid sudden speed changes. This helps improve fuel efficiency and reduce the overall environmental impact of driving."
+    },
+    {
+        "query": "What can be done while driving to reduce fuel consumption and emissions?",
+        "relevant_doc_id": 22,
+        "ground_truth_question": "Which of the following actions can help reduce fuel consumption and emissions while driving?",
+        "ground_truth_answer": "Maintaining a steady speed and avoiding unnecessary idling can help reduce fuel consumption and emissions while driving. This is because sudden acceleration and deceleration, as well as idling, can increase fuel consumption and emissions. By driving at a steady speed and minimizing idling, you can improve fuel efficiency and reduce your carbon footprint."
+    },
+    {
+        "query": "What driving practices can help to lower fuel consumption and emissions?",
+        "relevant_doc_id": 23,
+        "ground_truth_question": "Which of the following driving practices contributes to reducing fuel consumption and emissions?",
+        "ground_truth_answer": "Maintaining a steady speed and avoiding sudden stops while driving helps reduce fuel consumption and emissions. This driving practice allows the vehicle to operate more efficiently and burn fuel more effectively. It also helps to reduce wear and tear on the engine, resulting in lower emissions."
+    },
+    {
+        "query": "What speed range is recommended for achieving optimal fuel efficiency when driving on the highway?",
+        "relevant_doc_id": 24,
+        "ground_truth_question": "What is the recommended speed range for optimal fuel efficiency while driving on the highway?",
+        "ground_truth_answer": "The recommended speed range for optimal fuel efficiency while driving on the highway is 80-90 km/h. This speed range helps to minimize fuel consumption and maximize efficiency."
+    },
+    {
+        "query": "What is the initial step you should take upon arriving at the scene of a road traffic accident?",
+        "relevant_doc_id": 25,
+        "ground_truth_question": "What is the first thing you should do when arriving at the scene of a road traffic accident?",
+        "ground_truth_answer": "The first thing you should do when arriving at the scene of a road traffic accident is to check for danger and ensure your safety. This is crucial to prevent any further accidents or injuries. It is important to be aware of any potential hazards such as oncoming traffic, fire, or hazardous materials before assisting those involved in the accident."
+    },
+    {
+        "query": "What is the initial step you should take when you encounter a traffic accident?",
+        "relevant_doc_id": 26,
+        "ground_truth_question": "What is the first thing you should do when you come across a traffic accident?",
+        "ground_truth_answer": "The first thing you should do when you come across a traffic accident is to check for danger and secure the scene. This involves ensuring that the area is safe for yourself, the victims, and other bystanders. This may include turning off engines, moving vehicles to the side of the road if possible, and setting up warning signals to alert oncoming traffic. It is important to prioritize safety before providing any assistance to those involved in the accident."
+    },
+    {
+        "query": "What is the initial step to take when administering first aid to a person with severe injuries?",
+        "relevant_doc_id": 27,
+        "ground_truth_question": "What is the first step to take when providing first aid to a severely injured person?",
+        "ground_truth_answer": "Answer: The first step to take when providing first aid to a severely injured person is to call emergency services. This will ensure that professional help arrives promptly to provide the necessary medical care."
+    },
+    {
+        "query": "What is the initial step you should take upon arriving at the scene of a car accident?",
+        "relevant_doc_id": 28,
+        "ground_truth_question": "What is the first thing you should do when arriving at the scene of a car accident?",
+        "ground_truth_answer": "The first thing you should do when arriving at the scene of a car accident is to call emergency services. This is crucial to ensure that proper medical help and assistance can be provided to those involved in the accident. Additionally, it is important to ensure the safety of everyone at the scene and to prevent further harm."
+    },
+    {
+        "query": "What is the initial step you should take upon encountering a car accident?",
+        "relevant_doc_id": 29,
+        "ground_truth_question": "What is the first thing you should do when you come across a car accident?",
+        "ground_truth_answer": "A. Call emergency services\n\nIt is crucial to prioritize the safety and well-being of those involved in the car accident by immediately calling emergency services. This will ensure that trained professionals can arrive at the scene promptly to provide medical assistance and necessary support."
+    }
+]

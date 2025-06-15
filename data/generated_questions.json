@@ -1,0 +1,423 @@
+[
+    {
+        "theme": "Qualification and ability of truck drivers",
+        "chapter": "Qualification and ability of truck drivers",
+        "question": "What is the maximum allowed blood alcohol concentration (BAC) for truck drivers in Germany?",
+        "options": [
+            "A. 0.05%",
+            "B. 0.03%",
+            "C. 0.02%"
+        ],
+        "correct_options": [
+            "A. 0.05%"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Qualification and ability of truck drivers",
+        "chapter": "Qualification and ability of truck drivers",
+        "question": "When driving a truck, what is the recommended distance to maintain from the vehicle in front of you?",
+        "options": [
+            "A. 2 seconds",
+            "B. 4 seconds",
+            "C. 6 seconds"
+        ],
+        "correct_options": [
+            "B. 4 seconds"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Qualification and ability of truck drivers",
+        "chapter": "Qualification and ability of truck drivers",
+        "question": "What is the maximum allowed blood alcohol content for truck drivers in Germany?",
+        "options": [
+            "A. 0.03%",
+            "B. 0.05%",
+            "C. 0.08%"
+        ],
+        "correct_options": [
+            "A. 0.03%"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Qualification and ability of truck drivers",
+        "chapter": "Qualification and ability of truck drivers",
+        "question": "What is the maximum legal working hours for a truck driver in Germany per day?",
+        "options": [
+            "A. 8 hours",
+            "B. 10 hours",
+            "C. 12 hours"
+        ],
+        "correct_options": [
+            "B. 10 hours"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Qualification and ability of truck drivers",
+        "chapter": "Qualification and ability of truck drivers",
+        "question": "What is the maximum allowed blood alcohol concentration (BAC) for truck drivers in Germany?",
+        "options": [
+            "A. 0.0%",
+            "B. 0.05%",
+            "C. 0.02%"
+        ],
+        "correct_options": [
+            "A. 0.0%"
+        ],
+        "comments": "Truck drivers in Germany are not allowed to have any alcohol in their system while driving. Therefore, the maximum allowed BAC for truck drivers is 0.0%."
+    },
+    {
+        "theme": "Traffic Signs",
+        "chapter": "Understanding German Traffic Signs",
+        "question": "What does a blue circle with a white arrow pointing upwards indicate?",
+        "options": [
+            "A. Mandatory direction of travel straight ahead",
+            "B. Mandatory direction of travel to the right",
+            "C. Mandatory direction of travel to the left"
+        ],
+        "correct_options": [
+            "A. Mandatory direction of travel straight ahead"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Traffic Signs",
+        "chapter": "Understanding German Traffic Signs",
+        "question": "What does a blue sign with a white arrow pointing upwards mean?",
+        "options": [
+            "A. Mandatory direction",
+            "B. One-way street",
+            "C. End of the autobahn"
+        ],
+        "correct_options": [
+            "A. Mandatory direction"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Traffic Signs",
+        "chapter": "Understanding German Traffic Signs",
+        "question": "What does a red triangle with a white border mean on a German traffic sign?",
+        "options": [
+            "A. Stop ahead",
+            "B. Give way",
+            "C. No entry"
+        ],
+        "correct_options": [
+            "B. Give way"
+        ],
+        "comments": "A red triangle with a white border indicates that you must give way or yield to other vehicles."
+    },
+    {
+        "theme": "Traffic Signs",
+        "chapter": "Understanding German Traffic Signs",
+        "question": "What does a blue circle with a white arrow pointing upwards on a traffic sign indicate?",
+        "options": [
+            "A. One-way street",
+            "B. Mandatory direction of travel",
+            "C. Parking allowed"
+        ],
+        "correct_options": [
+            "B. Mandatory direction of travel"
+        ],
+        "comments": "A blue circle with a white arrow pointing upwards indicates a mandatory direction of travel for vehicles in that lane. Drivers must follow the direction indicated by the arrow."
+    },
+    {
+        "theme": "Traffic Signs",
+        "chapter": "Understanding German Traffic Signs",
+        "question": "What does a blue circular traffic sign with a white arrow pointing upwards indicate?",
+        "options": [
+            "A. Mandatory direction of travel",
+            "B. No entry",
+            "C. One-way street"
+        ],
+        "correct_options": [
+            "A. Mandatory direction of travel"
+        ],
+        "comments": "A blue circular traffic sign with a white arrow pointing upwards indicates the mandatory direction of travel for vehicles in that lane. Drivers must follow the direction indicated by the arrow."
+    },
+    {
+        "theme": "Road Rules",
+        "chapter": "General Road Rules and Regulations",
+        "question": "When approaching a pedestrian crossing, you must:",
+        "options": [
+            "A. Slow down and be prepared to stop.",
+            "B. Speed up to pass quickly.",
+            "C. Honk to warn pedestrians to clear the crossing."
+        ],
+        "correct_options": [
+            "A. Slow down and be prepared to stop."
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Road Rules",
+        "chapter": "General Road Rules and Regulations",
+        "question": "What does a solid white line next to the edge of the road indicate?",
+        "options": [
+            "A. No parking allowed",
+            "B. No overtaking or crossing",
+            "C. No stopping allowed"
+        ],
+        "correct_options": [
+            "B. No overtaking or crossing"
+        ],
+        "comments": "A solid white line next to the edge of the road indicates that overtaking or crossing is prohibited. Drivers should stay within their lane and not cross the line unless necessary."
+    },
+    {
+        "theme": "Road Rules",
+        "chapter": "General Road Rules and Regulations",
+        "question": "When approaching a roundabout, you should:",
+        "options": [
+            "A. Give way to traffic on your right.",
+            "B. Speed up to merge into the roundabout.",
+            "C. Honk to signal your intention to enter."
+        ],
+        "correct_options": [
+            "A. Give way to traffic on your right."
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Road Rules",
+        "chapter": "General Road Rules and Regulations",
+        "question": "When driving on the autobahn in Germany, what is the minimum speed limit for vehicles?",
+        "options": [
+            "A. 60 km/h",
+            "B. 80 km/h",
+            "C. There is no minimum speed limit"
+        ],
+        "correct_options": [
+            "C. There is no minimum speed limit"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Road Rules",
+        "chapter": "General Road Rules and Regulations",
+        "question": "What is the maximum speed limit on autobahns in Germany?",
+        "options": [
+            "A. 120 km/h",
+            "B. 130 km/h",
+            "C. No general speed limit"
+        ],
+        "correct_options": [
+            "C. No general speed limit"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Vehicle Maintenance",
+        "chapter": "Basic Vehicle Maintenance",
+        "question": "What is the recommended tire pressure for most vehicles?",
+        "options": [
+            "A. 30 psi",
+            "B. 35 psi",
+            "C. 40 psi"
+        ],
+        "correct_options": [
+            "B. 35 psi"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Vehicle Maintenance",
+        "chapter": "Basic Vehicle Maintenance",
+        "question": "What should you do if you notice your tires are underinflated?",
+        "options": [
+            "A. Drive carefully and wait until the next gas station to inflate them",
+            "B. Immediately stop and inflate the tires to the recommended pressure",
+            "C. Ignore it as it doesn't affect driving performance"
+        ],
+        "correct_options": [
+            "B. Immediately stop and inflate the tires to the recommended pressure"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Vehicle Maintenance",
+        "chapter": "Basic Vehicle Maintenance",
+        "question": "What is the recommended tire pressure for a passenger car?",
+        "options": [
+            "A. 32 psi",
+            "B. 40 psi",
+            "C. 45 psi"
+        ],
+        "correct_options": [
+            "A. 32 psi"
+        ],
+        "comments": "The recommended tire pressure for a passenger car is typically around 32 psi, but it is important to check the manufacturer's guidelines for the specific vehicle."
+    },
+    {
+        "theme": "Vehicle Maintenance",
+        "chapter": "Basic Vehicle Maintenance",
+        "question": "What does the warning light on the dashboard indicate if it shows an oil can symbol?",
+        "options": [
+            "A. Low tire pressure",
+            "B. Low oil level",
+            "C. Engine overheating"
+        ],
+        "correct_options": [
+            "B. Low oil level"
+        ],
+        "comments": "The oil can symbol on the dashboard indicates a low oil level in the engine, which can lead to serious damage if not addressed promptly."
+    },
+    {
+        "theme": "Vehicle Maintenance",
+        "chapter": "Basic Vehicle Maintenance",
+        "question": "What is the recommended tire pressure for most cars?",
+        "options": [
+            "A. 30 psi",
+            "B. 40 psi",
+            "C. 35 psi"
+        ],
+        "correct_options": [
+            "C. 35 psi"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Environmental Awareness",
+        "chapter": "Eco-Friendly Driving Practices",
+        "question": "Which of the following practices contribute to eco-friendly driving?",
+        "options": [
+            "A. Accelerating rapidly and braking suddenly",
+            "B. Maintaining a steady speed and avoiding sudden stops",
+            "C. Leaving the engine running while parked"
+        ],
+        "correct_options": [
+            "B. Maintaining a steady speed and avoiding sudden stops"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Environmental Awareness",
+        "chapter": "Eco-Friendly Driving Practices",
+        "question": "What is an eco-friendly driving practice that can reduce fuel consumption and emissions?",
+        "options": [
+            "A. Accelerating rapidly and braking hard",
+            "B. Keeping a steady speed and avoiding sudden speed changes",
+            "C. Driving at high speeds to reach the destination faster"
+        ],
+        "correct_options": [
+            "B. Keeping a steady speed and avoiding sudden speed changes"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Environmental Awareness",
+        "chapter": "Eco-Friendly Driving Practices",
+        "question": "Which of the following actions can help reduce fuel consumption and emissions while driving?",
+        "options": [
+            "A. Accelerating rapidly and braking suddenly",
+            "B. Maintaining a steady speed and avoiding unnecessary idling",
+            "C. Increasing speed quickly to reach the destination faster"
+        ],
+        "correct_options": [
+            "B. Maintaining a steady speed and avoiding unnecessary idling"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Environmental Awareness",
+        "chapter": "Eco-Friendly Driving Practices",
+        "question": "Which of the following driving practices contributes to reducing fuel consumption and emissions?",
+        "options": [
+            "A. Accelerating quickly and braking hard",
+            "B. Maintaining a steady speed and avoiding sudden stops",
+            "C. Keeping the windows open instead of using air conditioning"
+        ],
+        "correct_options": [
+            "B. Maintaining a steady speed and avoiding sudden stops"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "Environmental Awareness",
+        "chapter": "Eco-Friendly Driving Practices",
+        "question": "What is the recommended speed range for optimal fuel efficiency while driving on the highway?",
+        "options": [
+            "A. 50-60 km/h",
+            "B. 80-90 km/h",
+            "C. 110-120 km/h"
+        ],
+        "correct_options": [
+            "B. 80-90 km/h"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "First Aid",
+        "chapter": "Emergency Situations and First Aid",
+        "question": "What is the first thing you should do when arriving at the scene of a road traffic accident?",
+        "options": [
+            "A. Call for emergency services",
+            "B. Check for danger and ensure your safety",
+            "C. Assess the casualties"
+        ],
+        "correct_options": [
+            "B. Check for danger and ensure your safety"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "First Aid",
+        "chapter": "Emergency Situations and First Aid",
+        "question": "What is the first thing you should do when you come across a traffic accident?",
+        "options": [
+            "A. Call emergency services immediately",
+            "B. Check for danger and secure the scene",
+            "C. Attend to the injured persons"
+        ],
+        "correct_options": [
+            "B. Check for danger and secure the scene"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "First Aid",
+        "chapter": "Emergency Situations and First Aid",
+        "question": "What is the first step to take when providing first aid to a severely injured person?",
+        "options": [
+            "A. Check for breathing and pulse",
+            "B. Call emergency services",
+            "C. Elevate the injured limb"
+        ],
+        "correct_options": [
+            "B. Call emergency services"
+        ],
+        "comments": "Calling emergency services should always be the first step to ensure professional help arrives as soon as possible."
+    },
+    {
+        "theme": "First Aid",
+        "chapter": "Emergency Situations and First Aid",
+        "question": "What is the first thing you should do when arriving at the scene of a car accident?",
+        "options": [
+            "A. Call emergency services",
+            "B. Check for any injured persons",
+            "C. Secure the area and warn other drivers"
+        ],
+        "correct_options": [
+            "A. Call emergency services"
+        ],
+        "comments": ""
+    },
+    {
+        "theme": "First Aid",
+        "chapter": "Emergency Situations and First Aid",
+        "question": "What is the first thing you should do when you come across a car accident?",
+        "options": [
+            "A. Call emergency services",
+            "B. Check for any injured individuals",
+            "C. Move the vehicles to the side of the road"
+        ],
+        "correct_options": [
+            "A. Call emergency services",
+            "B. Check for any injured individuals"
+        ],
+        "comments": ""
+    }
+]
